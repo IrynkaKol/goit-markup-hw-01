@@ -9,17 +9,17 @@
   <body>
     <!--Header section-->
     <header class="header">
-      <p class="logo" lang="en">WebStudio</p>
+      <a class="logo" href="" lang="en">WebStudio</a>
       <nav class="header-nav">
         <ul class="header-list">
           <li class="header-item">
-            <a class="header-link" href="">Студия</a>
+            <a class="header-link" href="#studio">Студия</a>
           </li>
           <li class="header-item">
-            <a class="header-link" href="">Портфолио</a>
+            <a class="header-link" href="#portfolio">Портфолио</a>
           </li>
           <li class="header-item">
-            <a class="header-link" href="">Контакты</a>
+            <a class="header-link" href="#contacts">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -34,7 +34,8 @@
       </section>
 
       <!--Features section-->
-      <section class="features">
+      <section class="features" id="studio">
+        <h2>Studio</h2>
         <ul class="features-list">
           <li class="features-item">
             <h3 class="section-title">Внимание к деталям</h3>
@@ -67,7 +68,7 @@
       </section>
 
       <!--About section-->
-      <section class="about">
+      <section class="about" id="portfolio">
         <h2 class="about-title">Чем мы занимаемся</h2>
         <ul class="about-list">
           <li class="about-item">
@@ -95,12 +96,26 @@
     </main>
 
     <!--Footer sectoin-->
-    <footer class="footer">
-      <p class="logo-footer" lang="en">WebStudio</p>
-      <address class="adress-footer">г. Киев, Бульвар Леси Украинки, 26</address>
-      <address class="contacts-footer">
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="phone:+380991111111">+38 099 111 11 11</a>
+    <footer class="footer" id="contacts">
+      <a class="logo" href="" lang="en">WebStudio</a>
+      <address class="contacts-adressa">
+        <ul class="fcontacts-list">
+          <li class="contacts-item">
+            <a
+              class="contacts-link"
+              href="https://goo.gl/maps/fYD2F2hj4Bph8xJn6"
+              target="_blank"
+              rel="noopener"
+              >г. Киев, Бульвар Леси Украинки, 26</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-link" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-link" href="phone:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
       </address>
     </footer>
   </body>
